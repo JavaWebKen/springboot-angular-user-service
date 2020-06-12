@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.moonlightcoders</groupId>
-	<artifactId>springboot-angular-simple</artifactId>
+	<artifactId>springboot-angular-user-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-angular-simple</name>
+	<name>springboot-angular-user-service</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -43,6 +43,11 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
